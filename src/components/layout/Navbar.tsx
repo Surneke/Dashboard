@@ -14,7 +14,7 @@ export const Navbar = () => {
       <Flex className='gap-4' align='center'>
         <Flex vertical gap={2} align='end'>
           <Text strong className='font-medium'>
-            John doe
+            Sanjaajats Munkhbold
           </Text>
           <Text className='text-xs'>Admin</Text>
         </Flex>

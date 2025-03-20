@@ -14,7 +14,7 @@ export const AppMenu = () => {
           src={logo}
           className='rounded-full'
         />
-        <p className='font-medium capitalize hidden lg:block'>SchooLama </p>
+        <p className='font-medium capitalize hidden lg:block'>CTA</p>
       </div>
       {MenuItmes.map(menu => (
         <div className='mt-4 flex flex-col gap-0 lg:gap-2' key={menu.title}>

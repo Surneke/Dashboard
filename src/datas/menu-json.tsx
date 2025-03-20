@@ -1,22 +1,16 @@
 import {
-  Axe,
-  BookOpenCheck,
-  BookOpenText,
-  CalendarCheck,
-  GraduationCap,
-  Heart,
+  ChartLine,
+  Gamepad2Icon,
+  HeartHandshake,
   House,
-  LogOut,
-  MessageCircleMore,
-  School,
-  Settings,
-  User,
-  UsersRound
+  MessageCircleQuestion,
+  Trophy,
+  User
 } from "lucide-react"
 
 export const MenuItmes = [
   {
-    title: "Menu",
+    title: "Main",
     items: [
       {
         id: 1,
@@ -26,86 +20,49 @@ export const MenuItmes = [
       },
       {
         id: 2,
-        title: "Teacher",
-        url: "/teacher",
-        icon: GraduationCap
-      },
-      {
-        id: 3,
-        title: "Students",
-        url: "/student",
+        title: "Users",
+        url: "/users",
         icon: User
       },
       {
-        id: 4,
-        title: "Parents",
-        url: "/parent",
-        icon: UsersRound
-      },
-      {
-        id: 5,
-        title: "Classes",
-        url: "/about",
-        icon: School
-      },
-      {
-        id: 6,
-        title: "Lessons",
-        url: "/services",
-        icon: BookOpenText
-      },
-      {
-        id: 7,
-        title: "Exams",
-        url: "/contact",
-        icon: Heart
-      },
-      {
-        id: 8,
-        title: "Assigments",
-        url: "/contact",
-        icon: BookOpenCheck
-      },
-      {
-        id: 9,
-        title: "Events",
-        url: "/contact",
-        icon: CalendarCheck
-      },
-      {
-        id: 10,
-        title: "Messages",
-        url: "/contact",
-        icon: MessageCircleMore
-      },
-      {
-        id: 11,
-        title: "Announcements",
-        url: "/contact",
-        icon: Axe
+        id: 3,
+        title: "Terms & Condition",
+        url: "/terms-condition",
+        icon: HeartHandshake
       }
     ]
   },
   {
-    title: "Other",
+    title: "Content",
     items: [
       {
-        id: 1,
-        title: "Profile",
-        url: "/",
-        icon: User
+        id: 4,
+        title: "Games",
+        url: "/games",
+        icon: Gamepad2Icon
       },
       {
-        id: 2,
-        title: "Settings",
-        url: "/about",
-        icon: Settings
+        id: 5,
+        title: "Rewards",
+        url: "/rewards",
+        icon: Trophy
       },
       {
-        id: 3,
-        title: "Logout",
-        url: "/contact",
-        icon: LogOut
+        id: 6,
+        title: "Questions",
+        url: "/questions",
+        icon: MessageCircleQuestion
+      }
+    ]
+  },
+  {
+    title: "Statistic",
+    items: [
+      {
+        id: 7,
+        title: "Static",
+        url: "/statics",
+        icon: ChartLine
       }
     ]
   }
